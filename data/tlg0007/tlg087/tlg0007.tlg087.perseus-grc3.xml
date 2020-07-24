@@ -15,6 +15,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 <name>Lisa Cerrato</name>
 <name>Rashmi Singhal</name>
 <name>Bridget Almas</name>
+    <name>Angelia Hanhardt</name>
 </respStmt>
 <funder n="org:NEH">The National Endowment for the Humanities</funder>
 </titleStmt>
@@ -31,7 +32,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 <title xml:lang="lat">Moralia</title>
 <respStmt>
 <resp>with an English Translation by</resp>
-<name>Frank Cole Babbitt</name>
+<name role="translator">Frank Cole Babbitt</name>
 </respStmt>
 <imprint>
 <pubPlace>Cambridge, MA</pubPlace>
@@ -82,7 +83,7 @@ replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])"
 </profileDesc>
 <revisionDesc>
 <change who="RS" when="2010-05">tagged and parsed</change>
-<change who="1ucyP" when="2019-07-05">EpiDoc and CTS Conversion</change>
+<change who="Lucy Parr" when="2019-07-05">EpiDoc and CTS Conversion</change>
 </revisionDesc>
 </teiHeader>
 <text xml:lang="grc">
@@ -626,7 +627,7 @@ xml:id="stephpage-339e"/> τινα τῶν κακῶν εἶχε τὴν ἀκρ
 συνήθων γυναικῶν, ἐκείνη δὲ πρὸς Κρατερόν· κρατερὸς δὲ πρὸς Ἀλέξανδρον αὐτὴν εἰσήγαγε τὴν Ἀντιγόναν
 κρύφα, καὶ τοῦ μὲν σώματος οὐκ ἔθιγεν ἀλλʼ ἀπέσχετο· τὸν δὲ Φιλώταν ὑποικουρῶν διʼ αὐτῆς ὅλον
 ἐφώρασε, καὶ πλέον ἢ ἑπτὰ ἐτῶν διαγενομένων, οὐκ ἐν οἴνῳ ποτὲ τὴν ὑπόνοιαν ταύτην ἐξέφηνεν ὁ μεθύων,
-οὐ δι᾽ ὀργὴν <pb xml:id="v.4.p.458"/> ὁ θυμοειδής, οὐ πρὸς φίλον ὁ πάντα πιστεύων <milestone n="340a"
+οὐ δι’ ὀργὴν <pb xml:id="v.4.p.458"/> ὁ θυμοειδής, οὐ πρὸς φίλον ὁ πάντα πιστεύων <milestone n="340a"
 unit="stephpage" xml:id="stephpage-340a"/>Ἡφαιστίωνι καὶ πάντων μεταδιδούς. λέγεται γὰρ ὅτι καὶ τῆς
 μητρὸς ἀπόρρητον ἐπιστολὴν λύσαντος αὐτοῦ καὶ σιωπῇ πρὸς ἑαυτὸν ἀναγιγνώσκοντος, Ἡφαιστίων ἀτρέμα
 παραβάλλων τὴν κεφαλὴν συνανεγίγνωσκεν· ὁ δὲ κωλῦσαι μὲν οὐχ ὑπέμεινεν, ἐξελὼν δὲ τὸν δακτύλιον
